@@ -1,0 +1,77 @@
+{
+    "oneTime": [
+        {
+            "empName": "Rehan",
+            "min": "20 min"
+    },
+        {
+            "empName": "Jamal",
+            "min": "20 min"
+    },
+        {
+            "empName": "Aamir",
+            "min": "20 min"
+    },
+        {
+            "empName": "Faizan",
+            "min": "20 min"
+    },
+        {
+            "empName": "Shashi",
+            "min": "20 min"
+    },
+        {
+            "empName": "Hamza",
+            "min": "20 min"
+    }
+  ],
+    "lateTime": [
+        {
+            "empName": "Rehan",
+            "hrs": "1 hr",
+            "min": "20 min"
+    },
+        {
+            "empName": "Jamal",
+            "hrs": "1 hr",
+            "min": "20 min"
+    },
+        {
+            "empName": "Aamir",
+            "hrs": "1 hr",
+            "min": "20 min"
+    },
+        {
+            "empName": "Faizan",
+            "hrs": "1 hr",
+            "min": "20 min"
+    },
+        {
+            "empName": "Shashi",
+            "hrs": "1 hr",
+            "min": "20 min"
+    },
+        {
+            "empName": "Hamza",
+            "hrs": "1 hr",
+            "min": "20 min"
+    }
+  ],
+    "notCome": [
+        {
+            "empName": "Rehan"
+    },
+        {
+            "empName": "Jamal"
+    },
+        {
+            "empName": "Faizan"
+    },
+        {
+            "empName": "Shashi"
+    },
+        {
+            "empName": "Hamza"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+@font-face {
+	font-family: "Roboto";
+	src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.eot");
+	src: url("../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "Roboto";
+	src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.eot");
+	src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+	font-weight: 300;
+}
+@font-face {
+	font-family: "Roboto";
+	src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.eot");
+	src: url("../fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff"), url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Medium.eot");
+	src: url("../fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff"), url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/roboto/Roboto-Bold.eot");
+	src: url("../fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff"), url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+/*
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;*/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	line-height: 1.5;
+	font-family: 'Shrikhand', cursive;
+	font-weight: normal;
+	position: relative;
+	background-color: #ececec !important;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #b5b5b5;
+}
+.chack-in-main-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.chack-in-main-container.login {
+	overflow: auto;
+}
+.chack-in-sub-sec {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.inner-box {
+	padding: 10px;
+	position: relative;
+	background-color: #ffffff;
+	/*	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2),
+0 1px 1px 0 rgba(0, 0, 0, .14),
+0 2px 1px -1px rgba(0, 0, 0, .12);*/
+	margin: 15px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.inner-box.list-box {
+	padding: 0;
+}

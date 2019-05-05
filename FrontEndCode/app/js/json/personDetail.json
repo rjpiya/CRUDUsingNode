@@ -1,0 +1,134 @@
+{
+    "weekList": [
+        {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    },
+        {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 1
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }
+  ],
+    "monthList": [
+        {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    },
+        {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 1
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    }
+  ],
+    "quarterMonthList": [
+        {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 0
+    },
+        {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": 1
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": "0"
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": "0"
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": "0"
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": "0"
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": "0"
+    }, {
+            "dateandtime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "inTime": "Fri Jan 11 2019 03:07:39 GMT+0530 (India Standard Time)",
+            "outTime": "Fri Jan 11 2019 14:59:34 GMT+0530 (India Standard Time)",
+            "leave": "0"
+    }
+  ]
+}

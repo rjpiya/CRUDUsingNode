@@ -1,0 +1,166 @@
+ <style>
+     .has-error {
+    color: red;
+    
+}
+     .hidepop
+     {
+         display: none;
+     }
+
+
+</style>
+<div class="chack-in-main-container fadeIn animated">
+	<div class="chack-in-sub-sec">
+		<header></header>
+		<div class="inner-box">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">Dashboard</a>
+			</nav>
+			 <div class="container pt-5">
+				<div class="card">
+					<div class="text-right">
+						<button type="button" class="btn btn-primary m-2" data-toggle="modal" data-target="#studentAddModal">+ Add</button>
+					</div>
+					<table class="table">
+						<thead class="thead-dark">
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">Name</th>
+								<th scope="col">Contact</th>
+								<th scope="col">Email</th>
+								<th>Edit / Delete</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr data-ng-repeat="x in resultdata track by $index">
+								<th data-ng-bind="$index+1"></th>
+								<td data-ng-bind="x.name"></td>
+								<td data-ng-bind="x.mobile"></td>
+								<td data-ng-bind="x.email"></td>
+								<td>
+									<button class="btn btn-info mr-2" type="button" data-toggle="modal" data-target="#studentEditModal" data-ng-click="edit_form(x,$index)">
+										<i class="far fa-edit"></i>
+									</button>
+									<button class="btn btn-danger" type="button" data-toggle="modal" data-target="#studentDeleteModal" data-ng-click="delete_records(x.id)">
+										<i class="fas fa-trash-alt"></i>
+									</button>
+								</td>
+							</tr>
+ 						</tbody>
+					</table>
+				</div>
+			</div>
+			 
+		</div>
+ 	</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="studentAddModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<form class="modal-content" name="Add_records_std" data-ng-submit
+                       ="add_records(Add_records_std.$valid,addstd)"  novalidate>
+			<div class="modal-header">
+				<h5 class="modal-title">Add Student</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group" ng-class="{'has-error': !submitted && Add_records_std.user_name.$error.required}">
+					<label for="Name">Name</label>
+					<input type="text" data-ng-model="addstd.name" class="form-control" id="Name" placeholder="Enter name" name="user_name" data-ng-required="true" />
+                    <span ng-if="!submitted && Add_records_std.user_name.$error.required">
+      name is required
+    </span>
+				</div>
+				<div class="form-group" ng-class="{'has-error': !submitted && Add_records_std.user_mobileno.$error.required}">
+					<label for="number">Mob Number</label>
+					<input type="number" data-ng-model="addstd.mobileno" class="form-control" id="number" placeholder="Enter contact" name="user_mobileno" limit-to="10"  data-ng-required="true" />
+                    <span class="help-block" 
+                  ng-if="Add_records_std.user_mobileno.$error.required && !submitted">
+                           Valid phone number is required
+            </span>
+        
+				</div>
+				<div class="form-group" ng-class="{'has-error': !submitted && Add_records_std.user_email.$error.required}">
+					<label for="email">Email</label>
+					<input type="text" data-ng-model="addstd.email" class="form-control" id="email"  name="user_email" placeholder="Enter email" data-ng-required="true" />
+                    <span class="help-block" 
+                  ng-if="(Add_records_std.user_email.$error.required && !submitted) ">
+                           Enter vaild email
+            </span>
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<input type="submit" class="btn btn-primary" value="Submit" >
+			</div>
+		</form>
+	</div>
+</div>
+ <div class="modal fade" id="studentEditModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<form class="modal-content" name="edit_records_std"   novalidate>
+			<div class="modal-header">
+				<h5 class="modal-title">Edit Student</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group" ng-class="{'has-error': !submitted && edit_records_std.user_name.$error.required}">
+					<label for="Name">Name</label>
+					<input type="text" data-ng-model="editRecords.name" class="form-control" id="Name" placeholder="Enter name" name="user_name" data-ng-required="true" />
+                    <span ng-if="!submitted && edit_records_std.user_name.$error.required">
+      Name is required
+    </span>
+				</div>
+				<div class="form-group" ng-class="{'has-error': !submitted && edit_records_std.user_mobileno.$error.required}">
+					<label for="number">Mob Number</label>
+					<input type="number" data-ng-model="editRecords.mobileno" class="form-control" id="number" placeholder="Enter contact" name="user_mobileno" limit-to="10"  data-ng-required="true" />
+                    <span class="help-block" 
+                  ng-if="edit_records_std.user_mobileno.$error.required && !submitted">
+                           Valid phone number is required
+            </span>
+        
+				</div>
+				<div class="form-group" ng-class="{'has-error': !submitted && edit_records_std.user_email.$error.required}">
+					<label for="email">Email</label>
+					<input type="text" data-ng-model="editRecords.email" class="form-control" id="email"  name="user_email" placeholder="Enter email" data-ng-required="true" />
+                    <span class="help-block" 
+                  ng-if="(Add_records_std.user_email.$error.required && !submitted) ">
+                           Enter vaild email
+            </span>
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<input type="submit" class="btn btn-primary" value="Submit" data-ng-click
+                       ="edit_records(edit_records_std.$valid,editRecords)" >
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="modal fade" id="studentDeleteModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title text-danger">Delete Confirmation</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body text-center">
+				<h3 style="color: #778899;">Are you sure you want delete this student?</h3>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+				<button type="button" class="btn btn-primary" data-ng-click="delete_item()">Yes</button>
+			</div>
+		</div>
+	</div>
+</div>
